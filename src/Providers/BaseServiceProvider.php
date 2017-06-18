@@ -61,6 +61,7 @@ class BaseServiceProvider extends ServiceProvider
         BroadcastServiceProvider::class,
         EventServiceProvider::class,
         RouteServiceProvider::class,
+        \AM3\Auth\Providers\AuthServiceProvider::class,
     ];
 
     protected $classAliases = [
