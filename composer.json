@@ -1,0 +1,27 @@
+{
+  "name": "access-manager/base",
+  "description": "A sub-module for Access Manager",
+  "keywords": ["wifi", "hotspot", "mikrotik"],
+  "license": "MIT",
+  "type": "project",
+  "homepage": "http://accessmanager.in",
+  "require": {
+    "php": ">=5.6.4",
+    "laravel/framework": "5.4.*"
+  }
+  "autoload": {
+    "psr-4": {
+      "AM3\\Base\\": "src"
+    }
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "Illuminate\\Foundation\\ComposerScripts::postInstall",
+      "php artisan optimize"
+    ],
+    "post-update-cmd": [
+      "Illuminate\\Foundation\\ComposerScripts::postUpdate",
+      "php artisan optimize"
+    ]
+  }
+}
