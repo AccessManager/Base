@@ -17,10 +17,10 @@
   },
   "scripts": {
     "post-package-install": [
-      "php artisan vendor:publish --tag=public --force",
+      "php artisan vendor:publish --tag=public --force"
     ],
     "post-package-update": [
-      "php artisan vendor:publish --tag=public --force",
+      "php artisan vendor:publish --tag=public --force"
     ]
   },
   "config": {
