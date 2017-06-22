@@ -128,7 +128,7 @@ class BaseServiceProvider extends ServiceProvider
             $loader->alias( $alias, $class );
         }
 
-        $this->loadRoutesFrom(__DIR__ . '/../routes/web.php');
+        $this->loadRoutesFrom(__DIR__ . '/../Routes/web.php');
         $this->loadViewsFrom(__DIR__ .'/../Views', 'Base');
     }
 
