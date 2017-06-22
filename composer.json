@@ -15,20 +15,6 @@
       "AM3\\Base\\": "src"
     }
   },
-  "scripts": {
-    "post-install-cmd": [
-      "php artisan vendor:publish --tag=public --force"
-    ],
-    "post-update-cmd": [
-      "php artisan vendor:publish --tag=public --force"
-    ],
-    "post-package-install": [
-      "php artisan vendor:publish --tag=public --force"
-    ],
-    "post-package-update": [
-      "php artisan vendor:publish --tag=public --force"
-    ]
-  },
   "config": {
     "sort-packages": true,
     "optimize-autoloader": true
