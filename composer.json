@@ -3,7 +3,6 @@
   "description": "A sub-module for Access Manager",
   "keywords": ["wifi", "hotspot", "mikrotik"],
   "license": "MIT",
-  "type": "project",
   "homepage": "http://accessmanager.in",
   "require": {
     "php": ">=5.6.4",
