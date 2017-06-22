@@ -9,13 +9,13 @@
     "laravel/framework": "5.4.*",
     "access-manager/auth": "dev-master"
   },
+  "minimum-stability": "dev",
   "autoload": {
     "psr-4": {
       "AM3\\Base\\": "src"
     }
   },
   "config": {
-    "minimum-stability": "dev",
     "sort-packages": true,
     "optimize-autoloader": true
   }
