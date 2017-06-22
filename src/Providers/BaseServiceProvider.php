@@ -131,7 +131,10 @@ class BaseServiceProvider extends ServiceProvider
         $this->loadRoutesFrom(__DIR__ . '/../Routes/web.php');
         $this->loadViewsFrom(__DIR__ .'/../Views', 'Base');
 
-        $this->publishes( __DIR__ . "/../Assets");
+        $this->publishes([
+            __DIR__ . "/../Assets" => public_path('assets'),
+            'public'
+        ]);
     }
 
 }
