@@ -3,6 +3,9 @@
 namespace AM3\Base\Providers;
 
 
+use Collective\Html\FormFacade;
+use Collective\Html\HtmlFacade;
+use Collective\Html\HtmlServiceProvider;
 use Illuminate\Auth\AuthServiceProvider;
 use Illuminate\Auth\Passwords\PasswordResetServiceProvider;
 use Illuminate\Broadcasting\BroadcastServiceProvider;
@@ -62,6 +65,7 @@ class BaseServiceProvider extends ServiceProvider
         EventServiceProvider::class,
         RouteServiceProvider::class,
         \AM3\Auth\Providers\AuthServiceProvider::class,
+        HtmlServiceProvider::class,
     ];
 
     protected $classAliases = [
@@ -98,6 +102,8 @@ class BaseServiceProvider extends ServiceProvider
         'URL' => \Illuminate\Support\Facades\URL::class,
         'Validator' => \Illuminate\Support\Facades\Validator::class,
         'View' => \Illuminate\Support\Facades\View::class,
+        'Form' =>   FormFacade::class,
+        'HTML' => HtmlFacade::class,
     ];
 
     public function boot()
