@@ -9,7 +9,7 @@
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.7 -->
 {!! HTML::style('assets/css/bootstrap-3.3.7.min.css') !!}
-{!! HTML::style('assets/css/font-awesome-4.6.3.css') !!}
+{!! HTML::style('assets/css/font-awesome-4.6.3.min.css') !!}
 {!! HTML::style('assets/css/AdminLT.min.css') !!}
 {!! HTML::style('assets/css/_all-skins.min.css') !!}
 @stack('css')
