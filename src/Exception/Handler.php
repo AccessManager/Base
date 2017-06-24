@@ -1,6 +1,6 @@
 <?php
 
-namespace AM3\Base\Exception;
+namespace AccessManager\Base\Exception;
 
 use Exception;
 use Illuminate\Auth\AuthenticationException;

@@ -1,12 +1,12 @@
 <?php
 
-namespace AM3\Base\Providers;
+namespace AccessManager\Base\Providers;
 
 
 use Collective\Html\FormFacade;
 use Collective\Html\HtmlFacade;
 use Collective\Html\HtmlServiceProvider;
-use Illuminate\Auth\AuthServiceProvider;
+use Illuminate\Auth\AuthServiceProvider as LaravelAuthServiceProvider;
 use Illuminate\Auth\Passwords\PasswordResetServiceProvider;
 use Illuminate\Broadcasting\BroadcastServiceProvider;
 use Illuminate\Bus\BusServiceProvider;
@@ -34,7 +34,7 @@ use Illuminate\View\ViewServiceProvider;
 class BaseServiceProvider extends ServiceProvider
 {
     protected $laravelServiceProviders = [
-        AuthServiceProvider::class,
+        LaravelAuthServiceProvider::class,
         BroadcastServiceProvider::class,
         BusServiceProvider::class,
         CacheServiceProvider::class,
@@ -60,11 +60,9 @@ class BaseServiceProvider extends ServiceProvider
 
     protected $applicationServiceProviders = [
         AppServiceProvider::class,
-        AuthServiceProvider::class,
+        LaravelAuthServiceProvider::class,
         BroadcastServiceProvider::class,
-        EventServiceProvider::class,
-        RouteServiceProvider::class,
-        \AM3\Auth\Providers\AuthServiceProvider::class,
+        \AccessManager\Auth\Providers\AuthServiceProvider::class,
         HtmlServiceProvider::class,
     ];
 

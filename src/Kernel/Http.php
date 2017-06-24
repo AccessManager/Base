@@ -1,11 +1,11 @@
 <?php
 
-namespace AM3\Base\Kernel;
+namespace AccessManager\Base\Kernel;
 
-use AM3\Base\Middleware\EncryptCookies;
-use AM3\Base\Middleware\RedirectIfAuthenticated;
-use AM3\Base\Middleware\TrimStrings;
-use AM3\Base\Middleware\VerifyCsrfToken;
+use AccessManager\Base\Middleware\EncryptCookies;
+use AccessManager\Base\Middleware\RedirectIfAuthenticated;
+use AccessManager\Base\Middleware\TrimStrings;
+use AccessManager\Base\Middleware\VerifyCsrfToken;
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
 class Http extends HttpKernel

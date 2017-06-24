@@ -1,6 +1,6 @@
 <?php
 
-namespace AM3\Base\Providers;
+namespace AccessManager\Base\Providers;
 
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;

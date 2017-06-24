@@ -12,7 +12,7 @@
   },
   "autoload": {
     "psr-4": {
-      "AM3\\Base\\": "src"
+      "AccessManager\\Base\\": "src"
     }
   },
   "config": {

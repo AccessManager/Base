@@ -1,6 +1,6 @@
 <?php
 
-namespace AM3\Base\Middleware;
+namespace AccessManager\Base\Middleware;
 
 use Illuminate\Cookie\Middleware\EncryptCookies as BaseEncrypter;
 

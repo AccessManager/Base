@@ -1,6 +1,6 @@
 <?php
 
-namespace AM3\Base\Extended;
+namespace AccessManager\Base\Extended;
 
 use Illuminate\Foundation\Application as OriginalApp;
 

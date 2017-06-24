@@ -1,6 +1,6 @@
 <?php
 
-namespace AM3\Base\Middleware;
+namespace AccessManager\Base\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;

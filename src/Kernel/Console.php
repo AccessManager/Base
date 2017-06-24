@@ -1,6 +1,6 @@
 <?php
 
-namespace AM3\Base\Kernel;
+namespace AccessManager\Base\Kernel;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
