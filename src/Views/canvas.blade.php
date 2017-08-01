@@ -9,7 +9,7 @@
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.7 -->
 {!! HTML::style('assets/css/bootstrap-3.3.7.min.css') !!}
-{!! HTML::style('assets/css/font-awesome-4.6.3.min.css') !!}
+{!! HTML::style('assets/css/font-awesome-4.7.0.min.css') !!}
 {!! HTML::style('assets/css/AdminLT.min.css') !!}
 {!! HTML::style('assets/css/_all-skins.min.css') !!}
 @stack('css')
@@ -83,7 +83,64 @@
             <!-- sidebar menu: : style can be found in sidebar.less -->
             <ul class="sidebar-menu">
                 <li class="header">MAIN NAVIGATION</li>
-
+                <li>
+                    <a href="#">
+                        <i class="fa fa-users"></i> <span>Accounts</span> <i class="fa fa-angle-left pull-right"></i>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li>
+                            <a href="{!! route('accounts.index') !!}">
+                                <i class="fa fa-circle-o"></i> List Accounts</a>
+                        </li>
+                        <li>
+                            <a href="{!! route('accounts.add.get') !!}">
+                                <i class="fa fa-circle-o"></i> Add Account</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                <li class="treeview">
+                    <a href="#">
+                        <i class="fa fa-shopping-basket"></i> <span>Services</span>
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li>
+                            <a href="#"><i class="fa fa-chevron-circle-right"></i> <span>Service Plans</span> <i class="fa fa-angle-left pull-right"></i></a>
+                            <ul class="treeview-menu">
+                                <li>
+                                    <a href="{{route('plans.index')}}">
+                                        <i class="fa fa-circle-o"></i>
+                                        List Plans
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="{{route('plans.add')}}">
+                                        <i class="fa fa-circle-o"></i>
+                                        New Plan
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-chevron-circle-right"></i> <span>BW Policies</span> <i class="fa fa-angle-left pull-right"></i></a>
+                            <ul class="treeview-menu">
+                                <li>
+                                    <a href="{{route('policies.index')}}">
+                                        <i class="fa fa-circle-o"></i>
+                                        List Policies
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="{{route('policies.add')}}">
+                                        <i class="fa fa-circle-o"></i>
+                                        New Policy
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
             </ul>
         </section>
         <!-- /.sidebar -->
