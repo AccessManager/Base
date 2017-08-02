@@ -42,4 +42,5 @@ return [
     \AccessManager\Setup\Providers\SetupServiceProvider::class,
     \AccessManager\Auth\Providers\AuthServiceProvider::class,
     \AccessManager\Base\Providers\AppServiceProvider::class,
+    \AccessManager\AccountDetails\Providers\AccountDetailsServiceProvider::class,
 ];
