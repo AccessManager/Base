@@ -12,6 +12,7 @@
 {!! HTML::style('assets/css/font-awesome-4.7.0.min.css') !!}
 {!! HTML::style('assets/css/AdminLT.min.css') !!}
 {!! HTML::style('assets/css/_all-skins.min.css') !!}
+{!! HTML::style('assets/css/select-picker.css') !!}
 @stack('css')
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -184,6 +185,10 @@
 {!! HTML::script('assets/js/app.min.js') !!}
 <!-- script to show clock in the navbar -->
 {!! HTML::script('assets/js/navbar-clock.js') !!}
+{!! HTML::script('assets/js/select-picker.js') !!}
+<script>
+    $('select').selectpicker();
+</script>
 @stack('javascripts')
 </body>
 </html>
