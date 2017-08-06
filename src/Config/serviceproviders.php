@@ -43,4 +43,7 @@ return [
     \AccessManager\Auth\Providers\AuthServiceProvider::class,
     \AccessManager\Base\Providers\AppServiceProvider::class,
     \AccessManager\AccountDetails\Providers\AccountDetailsServiceProvider::class,
+    \AccessManager\Routers\Providers\RoutersServiceProvider::class,
+    \AccessManager\Zones\Providers\ZoneServiceProvider::class,
+    \AccessManager\Prepaid\Providers\PrepaidServiceProvider::class,
 ];
