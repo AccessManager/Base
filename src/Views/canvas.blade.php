@@ -101,6 +101,33 @@
                 </li>
                 <li>
                 <li class="treeview">
+                    <a href="">
+                        <i class="fa fa-user"></i>
+                        <span>Prepaid</span>
+                        <i class="fa fa-angle-left pull-right"> </i>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li>
+                            <a href="">
+                                <i class="fa fa-circle-o"></i>
+                                <span>Recharge Vouchers</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa fa-circle-o"></i>
+                                <span>Generate Vouchers</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa fa-circle-o"></i>
+                                <span>Recharge Account</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="treeview">
                     <a href="#">
                         <i class="fa fa-shopping-basket"></i> <span>Services</span>
                         <i class="fa fa-angle-left pull-right"></i>
@@ -141,6 +168,75 @@
                             </ul>
                         </li>
                     </ul>
+                </li>
+
+                <li class="treeview">
+                    <a href="">
+                        <i class="fa fa-th-large"></i>
+                        <span>Zones</span>
+                        <i class="fa fa-angle-left pull-right"> </i>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li>
+                            <a href="{{route("zones.index")}}">
+                                <i class="fa fa-circle-o"></i>
+                                <span>List Zones</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{route("zones.add")}}">
+                                <i class="fa fa-circle-o"></i>
+                                <span>Add Zone</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="treeview">
+                    <a href="#">
+                        <i class="fa fa-connectdevelop"></i> <span>Network</span>
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li>
+                            <a href="#"><i class="fa fa-chevron-circle-right"></i> <span>Routers</span> <i class="fa fa-angle-left pull-right"></i></a>
+                            <ul class="treeview-menu">
+                                <li>
+                                    <a href="{{route("routers.index")}}">
+                                        <i class="fa fa-circle-o"></i> List Routers
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="{{route("routers.add")}}">
+                                        <i class="fa fa-circle-o"></i> Add Router
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="">
+                        <i class="fa fa-info"></i>
+                        <span>System</span>
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li>
+                            <a href="">
+                                <i class="fa fa-circle-o"></i>
+                                <span>Change Password</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <hr>
+                <li>
+                    <a href="">
+                        <i class="fa fa-send-o"></i>
+                        <span>Provide Feedback</span>
+                    </a>
                 </li>
             </ul>
         </section>
