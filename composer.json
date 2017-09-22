@@ -6,9 +6,19 @@
   "homepage": "http://accessmanager.in",
   "require": {
     "php": ">=5.6.4",
-    "laravel/framework": "5.5.*",
+    "laravel/framework": "5.4.*",
     "laravelcollective/html": "^5.4.0",
-    "access-manager/auth": "dev-master"
+    "access-manager/auth": "dev-master",
+    "access-manager/account-details": "dev-master",
+    "access-manager/accounts": "dev-master",
+    "access-manager/constants": "dev-master",
+    "access-manager/helpers": "dev-master",
+    "access-manager/prepaid": "dev-master",
+    "access-manager/radius": "dev-master",
+    "access-manager/routers": "dev-master",
+    "access-manager/services": "dev-master",
+    "access-manager/setup": "dev-master",
+    "access-manager/zones": "dev-master"
   },
   "autoload": {
     "psr-4": {
