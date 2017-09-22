@@ -32,6 +32,7 @@ return [
      * Third party package Service Providers.
      */
     \Collective\Html\HtmlServiceProvider::class,
+    Jackiedo\DotenvEditor\DotenvEditorServiceProvider::class,
 
 
     /*
@@ -41,9 +42,9 @@ return [
     \AccessManager\Services\Providers\ServicesServiceProvider::class,
     \AccessManager\Setup\Providers\SetupServiceProvider::class,
     \AccessManager\Auth\Providers\AuthServiceProvider::class,
-    \AccessManager\Base\Providers\AppServiceProvider::class,
     \AccessManager\AccountDetails\Providers\AccountDetailsServiceProvider::class,
     \AccessManager\Routers\Providers\RoutersServiceProvider::class,
     \AccessManager\Zones\Providers\ZoneServiceProvider::class,
     \AccessManager\Prepaid\Providers\PrepaidServiceProvider::class,
+    \AccessManager\Radius\Providers\RadiusServiceProvider::class,
 ];
