@@ -52,7 +52,7 @@
                         </a>
                     </li>
                     <li>
-                        <a class="" href="" onclick="return confirm('Are you sure, you want to logout?')">
+                        <a class="" href="{{route('logout')}}" onclick="return confirm('Are you sure, you want to logout?')">
                             <i class="fa fa-power-off"></i>
                         </a>
                     </li>
@@ -94,7 +94,7 @@
                                 <i class="fa fa-circle-o"></i> List Accounts</a>
                         </li>
                         <li>
-                            <a href="{!! route('accounts.add.get') !!}">
+                            <a href="{!! route('accounts.add') !!}">
                                 <i class="fa fa-circle-o"></i> Add Account</a>
                         </li>
                     </ul>
@@ -108,19 +108,19 @@
                     </a>
                     <ul class="treeview-menu">
                         <li>
-                            <a href="">
+                            <a href="{{route('vouchers.index')}}">
                                 <i class="fa fa-circle-o"></i>
                                 <span>Recharge Vouchers</span>
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="{{route('vouchers.generate')}}">
                                 <i class="fa fa-circle-o"></i>
                                 <span>Generate Vouchers</span>
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="{{route('prepaid.recharge')}}">
                                 <i class="fa fa-circle-o"></i>
                                 <span>Recharge Account</span>
                             </a>
