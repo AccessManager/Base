@@ -22,6 +22,11 @@ class BaseServiceProvider extends ServiceProvider
         $this->registerAliases();
 
         /*
+         * update new public_path of the app.
+         */
+        $this->updatePublicPath();
+
+        /*
          * Load other resources.
          */
         $this->loadResources();
@@ -51,6 +56,13 @@ class BaseServiceProvider extends ServiceProvider
         {
             $loader->alias($alias, $class);
         }
+    }
+
+    protected function updatePublicPath()
+    {
+        $this->app->bind('path.public', function() {
+            return base_path('html');
+        });
     }
 
     protected function loadResources()
