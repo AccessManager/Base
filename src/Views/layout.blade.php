@@ -5,6 +5,9 @@
             @yield('box-header-navbar')
             <h3 class="box-title">
                 @yield('box-header')
+                <small>
+                    @yield('box-header-small')
+                </small>
             </h3>
             <span class="pull-right">
                     @yield('box-header-right')
