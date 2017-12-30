@@ -32,7 +32,6 @@ return [
      * Third party package Service Providers.
      */
     \Collective\Html\HtmlServiceProvider::class,
-    Jackiedo\DotenvEditor\DotenvEditorServiceProvider::class,
 
 
     /*
