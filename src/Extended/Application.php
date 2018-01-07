@@ -15,4 +15,9 @@ class Application extends OriginalApp
     {
         return $this->basePath.DIRECTORY_SEPARATOR.'html';
     }
+
+    public function langPath()
+    {
+        return __DIR__ . "/../Lang";
+    }
 }
