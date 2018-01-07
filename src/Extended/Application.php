@@ -16,6 +16,12 @@ class Application extends OriginalApp
         return $this->basePath.DIRECTORY_SEPARATOR.'html';
     }
 
+    /**
+     * Customise path to language files, and point it
+     * to Lang directory contained in Base package.
+     *
+     * @return string
+     */
     public function langPath()
     {
         return __DIR__ . "/../Lang";
