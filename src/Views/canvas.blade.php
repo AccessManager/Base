@@ -213,6 +213,21 @@
                                 </li>
                             </ul>
                         </li>
+                        <li>
+                            <a href="#"><i class="fa fa-chevron-circle-right"></i> <span>Subnet</span> <i class="fa fa-angle-left pull-right"></i></a>
+                            <ul class="treeview-menu">
+                                <li>
+                                    <a href="{{route("subnet.index")}}">
+                                        <i class="fa fa-circle-o"></i> List Subnet
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="{{route("subnet.add")}}">
+                                        <i class="fa fa-circle-o"></i> Add Subnet
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
                 </li>
 
@@ -224,7 +239,7 @@
                     </a>
                     <ul class="treeview-menu">
                         <li>
-                            <a href="">
+                            <a href="{{route('system.change-password')}}">
                                 <i class="fa fa-circle-o"></i>
                                 <span>Change Password</span>
                             </a>
