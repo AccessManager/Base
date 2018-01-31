@@ -248,7 +248,7 @@
                 </li>
                 <hr>
                 <li>
-                    <a href="">
+                    <a href="mailto:info@accessmanager.in?subject=Feedback%20from%20Access%20Manager%203%20GUI">
                         <i class="fa fa-send-o"></i>
                         <span>Provide Feedback</span>
                     </a>
