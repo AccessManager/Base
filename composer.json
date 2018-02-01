@@ -10,16 +10,16 @@
     "laravelcollective/html": "^5.4.0",
     "spatie/url": "^1.1",
     "access-manager/auth": "v3.0-*",
-    "access-manager/account-details": "v3.0-*",
-    "access-manager/accounts": "v3.0-*",
-    "access-manager/constants": "v3.0-*",
-    "access-manager/helpers": "v3.0-*",
-    "access-manager/prepaid": "v3.0-*",
-    "access-manager/radius": "v3.0-*",
-    "access-manager/routers": "v3.0-*",
-    "access-manager/services": "v3.0-*",
-    "access-manager/setup": "v3.0-*",
-    "access-manager/zones": "v3.0-*"
+    "access-manager/account-details": "3.0-*",
+    "access-manager/accounts": "3.0-*",
+    "access-manager/constants": "3.0-*",
+    "access-manager/helpers": "3.0-*",
+    "access-manager/prepaid": "3.0-*",
+    "access-manager/radius": "3.0-*",
+    "access-manager/routers": "3.0-*",
+    "access-manager/services": "3.0-*",
+    "access-manager/setup": "3.0-*",
+    "access-manager/zones": "3.0-*"
   },
   "autoload": {
     "psr-4": {
