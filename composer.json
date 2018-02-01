@@ -9,17 +9,17 @@
     "laravel/framework": "^5.5.0",
     "laravelcollective/html": "^5.4.0",
     "spatie/url": "^1.1",
-    "access-manager/auth": "v3.0-*",
-    "access-manager/account-details": "3.0-*",
-    "access-manager/accounts": "3.0-*",
-    "access-manager/constants": "3.0-*",
-    "access-manager/helpers": "3.0-*",
-    "access-manager/prepaid": "3.0-*",
-    "access-manager/radius": "3.0-*",
-    "access-manager/routers": "3.0-*",
-    "access-manager/services": "3.0-*",
-    "access-manager/setup": "3.0-*",
-    "access-manager/zones": "3.0-*"
+    "access-manager/auth": "v3.*",
+    "access-manager/account-details": "3.*",
+    "access-manager/accounts": "3.*",
+    "access-manager/constants": "3.*",
+    "access-manager/helpers": "3.*",
+    "access-manager/prepaid": "3.*",
+    "access-manager/radius": "3.*",
+    "access-manager/routers": "3.*",
+    "access-manager/services": "3.*",
+    "access-manager/setup": "3.*",
+    "access-manager/zones": "3.*"
   },
   "autoload": {
     "psr-4": {
